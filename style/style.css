@@ -1,0 +1,173 @@
+:root {
+    --bg-blue: #F2F6FF;
+    --font-blue: #234cad;
+    --font-time: #5a79c2;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    color: var(--font-blue) !important;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+/* Header Start */
+.nav-link {
+    font-weight: 500;
+}
+
+.hamburger-button {
+    border: 0;
+    background-color: var(--bg-blue);
+    width: 50px;
+    height: 50px;
+}
+
+.hamburger-line {
+    width: 20px;
+    height: 2px;
+    background-color: var(--font-blue);
+    display: block;
+    border-radius: 1.5px;
+}
+
+.header-center {
+    margin-left: 190px;
+}
+
+.header-center ul li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.header-right button {
+    width: 135px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.login-button {
+    border-radius: 25px;
+    border: var(--font-blue) 2px solid;
+    background-color: white;
+}
+
+.signup-button {
+    border-radius: 25px;
+    border: 0;
+    background-color: var(--bg-blue);
+}
+
+/* Header End */
+
+/* 
+ */
+
+/* Banner Start */
+.banner {
+    margin-top: 80px;
+    background-color: var(--bg-blue);
+    border-radius: 60px;
+}
+
+.banner-left {
+    margin-right: 20px;
+}
+
+.banner-left .banner-heading {
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.banner-left .banner-text {
+    font-size: 15px;
+}
+
+.banner-button {
+    border-radius: 50px;
+    padding: 10px 40px;
+    border: var(--font-blue) 2px solid;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.banner-right {
+    margin-top: 20px;
+}
+
+.banner-right-left {
+    margin-right: 50px;
+}
+
+.banner-right .row {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+/* Banner Right - Right Start */
+.banner-right-right {
+    position: relative;
+    padding-top: 43px;
+    margin-left: 30px;
+}
+
+/* Banner Right Row 1 */
+.row-1 {}
+
+/* Banner Right Row 2 */
+.banner-right-right .row-2 {
+    position: absolute;
+    margin-top: -5px;
+    left: -110px;
+}
+
+/* Banner Right Row 3 */
+.banner-right-right .row-3 {
+    position: absolute;
+    top: 355px;
+    left: 5px;
+}
+
+/* Banner Right Row 4 */
+.banner-right-right .row-4 {
+    position: absolute;
+    top: 480px;
+    left: -30px;
+}
+
+/* Banner End */
+
+/* 
+*/
+
+/* Feature Start */
+.feature .circle-with-svg {
+    width: 100px;
+    height: 100px;
+}
+
+.feature .feature-text h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 49px;
+}
+
+.feature .feature-text h5 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+/* Feature End */
+
+/* 
+ */
