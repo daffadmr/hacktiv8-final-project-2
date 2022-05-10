@@ -1,5 +1,21 @@
 /* REUSABLE COMPONENT */
 
+/* Get the app button */
+.get-app-button {
+    border-radius: 50px;
+    width: 200px;
+    height: 65px;
+    border: var(--font-blue) 2px solid;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+/* 
+*/
+
+
 /* Circle yang dalemnya svg dah pokoknya */
 .circle-with-svg {
     display: flex;
