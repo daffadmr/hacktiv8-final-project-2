@@ -91,13 +91,15 @@
     font-size: 15px;
 }
 
-.banner-button {
+.banner .get-app-button {
     border-radius: 50px;
-    padding: 10px 40px;
+    width: 200px;
+    height: 65px;
     border: var(--font-blue) 2px solid;
     background-color: transparent;
-    font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
 }
 
 .banner-right {
@@ -171,3 +173,111 @@
 
 /* 
  */
+
+/* Product Feature 1 Start */
+.product-feature-1-left {
+    width: 575px;
+    height: 575px;
+    border-radius: 60px;
+    background-color: var(--bg-blue);
+}
+
+.product-feature-1-left .row-1 .chat-box {
+    width: 438px;
+    height: 125px;
+}
+
+.product-feature-1-left .row-1 .chat-box .initial {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    width: 75px;
+    height: 75px;
+}
+
+.product-feature-1-left .row-1 .chat-box .initial-container p {
+    top: 2px;
+    right: 6px;
+}
+
+.product-feature-1-left .row-1 .chat-box .center-chat-box {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.product-feature-1-left .row-1 .chat-box .center-chat-box small {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.product-feature-1-left .row-1 .chat-box .end-chat-box {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.product-feature-1-left .row-2 .chat-box {
+    opacity: 0.9;
+}
+
+.product-feature-1-left .row-3 .chat-box {
+    opacity: 0.8;
+    width: 262px;
+    height: 75px;
+}
+
+.product-feature-1-left .row-3 .chat-box .initial {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    width: 45px;
+    height: 45px;
+}
+
+.product-feature-1-left .row-3 .chat-box .initial-container p {
+    width: 12px;
+    height: 12px;
+    top: 2px;
+    right: 6px;
+    font-size: 4px;
+    line-height: 6px;
+}
+
+.product-feature-1-left .row-3 .chat-box .center-chat-box {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.product-feature-1-left .row-3 .chat-box .center-chat-box small {
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 16px;
+}
+
+.product-feature-1-left .row-3 .chat-box .end-chat-box {
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 10px;
+}
+
+.product-feature-1-right h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.product-feature-1-right p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* Product Feature 1 End */
+
+/* 
+ */
+
+/* Product Feature 2 Start */
