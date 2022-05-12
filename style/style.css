@@ -4,6 +4,10 @@
     --font-time: #5a79c2;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     font-family: 'Nunito', sans-serif;
     color: var(--font-blue) !important;
@@ -122,9 +126,6 @@
     margin-left: 30px;
 }
 
-/* Banner Right Row 1 */
-.row-1 {}
-
 /* Banner Right Row 2 */
 .banner-right-right .row-2 {
     position: absolute;
@@ -173,6 +174,8 @@
 
 /* 
  */
+
+/* Section B Start */
 
 /* Product Feature 1 Start */
 .product-feature-1-left {
@@ -277,7 +280,154 @@
 
 /* Product Feature 1 End */
 
-/* 
- */
+/* Section B text */
+.section-b-text h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
 
 /* Product Feature 2 Start */
+.product-feature-2 {
+    height: 575px;
+    border-radius: 60px;
+    background-color: var(--bg-blue);
+}
+
+.add-shadow {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
+    backdrop-filter: blur(6px);
+}
+
+/* Section B End */
+
+/*  
+*/
+
+/* Section C Start */
+.about-right {
+    width: 575px;
+    height: 575px;
+    border-radius: 60px;
+    background-color: var(--bg-blue);
+    overflow: hidden;
+}
+
+.about-right .box-container {
+    padding-left: 60px !important;
+}
+
+.about-right .schedule-box {
+    right: -108px;
+}
+
+/* Section D Start */
+.contact-newsletter {
+    background-color: var(--bg-blue);
+    border-radius: 60px;
+}
+
+.contact-newsletter h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.contact-newsletter .contact-newsletter-form {
+    width: 500px;
+    height: 65px;
+}
+
+.contact-newsletter .contact-newsletter-form input {
+    border-radius: 17.5px;
+    border: 0;
+    height: 65px;
+    flex: 1;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+::placeholder {
+    color: var(--font-blue);
+    opacity: 0.5;
+}
+
+
+.contact-newsletter .contact-newsletter-form button {
+    right: 20px;
+    border-radius: 12.5px;
+    border: 0;
+    background-color: var(--font-blue);
+    height: 45px;
+    width: 45px;
+}
+
+/* Footer Start */
+footer h4 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 49px;
+}
+
+footer p,
+li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+/* 
+ */
+.banner .get-app-button:hover {
+    opacity: 0.8;
+    transform: translateY(-5px);
+    transition: 500ms;
+}
+
+.banner .get-app-button:active {
+    opacity: 1;
+    transform: translateY(5px);
+}
+
+
+.get-app-button:hover {
+    background-color: var(--bg-blue);
+    transition: 200ms;
+}
+
+.hamburger-button:hover {
+    transition: 50ms;
+    border: 2px solid #234CAD;
+}
+
+.login-button:hover {
+    background-color: var(--bg-blue);
+    transition: 200ms;
+}
+
+.signup-button:hover {
+    border: 2px solid #234CAD;
+    transition: 50ms;
+}
+
+#about .container-about .row-about .col-kiri .content .button:hover {
+    background-color: var(--bg-blue);
+    transition: 200ms;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-1 .card-body .card-content .learn-button .button:hover {
+    border: 3px solid #234CAD;
+    transition: 200ms;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-2 .card-body .card-content .start-button .button:hover {
+    background-color: var(--bg-blue);
+    transition: 200ms;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-3 .card-body .card-content .learn-button .button:hover {
+    border: 3px solid #234CAD;
+    transition: 200ms;
+}
